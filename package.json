@@ -7,11 +7,14 @@
         "start": "node app.js",
         "dev": "nodemon app.js"
     },
+    "type": "commonjs",
     "author": "",
     "license": "ISC",
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.3",
+        "firebase": "^9.6.10",
+        "firebase-admin": "^10.0.2",
         "volleyball": "^1.5.1"
     },
     "devDependencies": {
